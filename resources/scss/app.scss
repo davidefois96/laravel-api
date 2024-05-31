@@ -1,0 +1,28 @@
+@import '~bootstrap/scss/bootstrap';
+
+
+main{
+
+    height: calc(100vh - 85.33px);
+}
+aside{
+
+    width: 180px;
+    height: 100%;
+    border-top: 1px solid gray ;
+    flex-shrink: 0;
+    font-size: .8rem;
+
+
+}
+
+input:focus{
+    outline: none;
+}
+
+td{
+
+    img{
+        width: 200px;
+    }
+}
